@@ -13,8 +13,11 @@
 <body>
   <!-- //header tag will contain logo centered and navbar with elements centered. -->
   <header class="header">
-    <nav class="navbar">
-      <div class="container justify-content-center">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span> </button>
+           <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo01">
 
         <ul class="nav align-items-end">
           <li class="nav-item">
@@ -42,6 +45,7 @@
             <a class="nav-link active" href="#"><span>Reserve</span></a>
           </li>
         </ul>
+        </div>
       </div>
     </nav>
 
@@ -59,13 +63,13 @@
   </header>
   <!-- This article is for the summary of the hamster hotel with image and awards! -->
   <article>
-    <div class="container mt-5 mb-5 pt-5">
+    <div class="container mt-5 mb-5">
       <div class="row">
 
-        <div class="col-4 d-flex justify-content-end">
+        <div class="col-lg-5 d-flex justify-content-center">
           <img style="width: 350px;" src="./hotelMarkupAssets/hamsterhomejpg.jpg" alt="">
         </div>
-        <div class="col-8">
+        <div class="col-lg-7">
           <h2 class="pb-5">Welcome to a hamster's paradise</h2>
           <p>Nestled in the heart of Cavia California, La Petite Maison is a luxury hotel designed for the small mammal
             with extravagance in mind. Escape to the warm comforts of stunning rooms, a relaxing spa, and a pool with a
@@ -73,16 +77,16 @@
           <p class="pb-5">Inspired by the warm beauty of the California Coast, we invite you to enjoy the rich
             accommodations along with our unmatched luxury. Discover the satisfaction of indulging in our quality rooms,
             and thank you for choosing La Petite Maison.</p>
-          <div class="row">
-            <div class="col">
+          <div class="row d-flex align-items-center justify-content-center">
+            <div class="col-md-4 p-3">
               <img src="./hotelMarkupAssets/awardfinest.png"
                 alt="An excellence award for Finest quality of our La Petite Maison">
             </div>
-            <div class="col">
+            <div class="col-md-4 p-3">
               <img src="./hotelMarkupAssets/awardsatisfaction.png"
                 alt="An award called the satisfaction guaranteed certification.">
             </div>
-            <div class="col">
+            <div class="col-md-4 p-3">
               <img src="./hotelMarkupAssets/awardgenuine.png" alt="Satisfaction Guaranteed Genuine Award!">
             </div>
           </div>
