@@ -25,3 +25,11 @@
     height: 100%;
     width: 100%;
  }
+.footerColor{
+    background-color: #000324;
+}
+.img-center
+{
+    display: block;
+    margin: auto;
+}
