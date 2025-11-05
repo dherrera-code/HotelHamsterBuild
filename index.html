@@ -50,7 +50,7 @@
     </nav>
 
     <div class="card text-bg-dark">
-      <img src="./hotelMarkupAssets/header.jpg" class="card-img"
+      <img src="./hotelMarkupAssets/header.jpg" class="card-img" style="height:80vh;"
         alt="An image of a luxurious resort of the hamster hotel with a swimming area for the hamsters surrounded by palm trees and sun loungers with umbrellas to cover the sunlight.">
       <div class="card-img-overlay d-flex justify-content-center align-items-center">
         <div class="text-background">
@@ -78,15 +78,15 @@
             accommodations along with our unmatched luxury. Discover the satisfaction of indulging in our quality rooms,
             and thank you for choosing La Petite Maison.</p>
           <div class="row d-flex align-items-center justify-content-center">
-            <div class="col-md-4 p-3">
+            <div class="col-md-4 d-none d-md-block">
               <img src="./hotelMarkupAssets/awardfinest.png"
                 alt="An excellence award for Finest quality of our La Petite Maison">
             </div>
-            <div class="col-md-4 p-3">
+            <div class="col-md-4 px-2 d-none d-md-block">
               <img src="./hotelMarkupAssets/awardsatisfaction.png"
                 alt="An award called the satisfaction guaranteed certification.">
             </div>
-            <div class="col-md-4 p-3">
+            <div class="col-md-4 d-none d-md-block">
               <img src="./hotelMarkupAssets/awardgenuine.png" alt="Satisfaction Guaranteed Genuine Award!">
             </div>
           </div>
@@ -97,19 +97,12 @@
 
   <!-- This next article will show Our Rooms(THree cards) -->
   <article>
-    <div class="card text-bg-light d-none d-md-block" style="height: auto;">
-      <img src="./hotelMarkupAssets/bg2.jpg" class="card-img" 
-        alt="An image of a luxurious resort of the hamster hotel with a swimming area for the hamsters surrounded by palm trees and sun loungers with umbrellas to cover the sunlight.">
-      <div class="card-img-overlay bg-image d-flex justify-content-center">
+    <div class="card text-bg-light image-background pb-5" style="height: auto;">
+      <h1 class="text-center p-5"><span>Our Rooms</span></h1> 
         <!-- Insert three cols with cards inside with reserve link button  -->
-        <div class="container">
-          <div class="row mb-5">
-            <div class="d-flex justify-content-center">
-              <h1><span>Our Rooms</span></h1>
-            </div>
-          </div>
-          <div class="row d-flex justify-content-center align-items-center align-items-stretch">
-            <div class="col-lg">
+        <div class="container image-background">
+          <div class="row">
+            <div class="col-lg-4 mb-5 d-flex justify-content-center">
               <!-- First Card! Queen Bed room-->
               <div class="card h-100" style="width: 18rem;">
                 <img src="./hotelMarkupAssets/room1.jpg" class="card-img-top" alt="Image of a Queen size Bedroom!">
@@ -125,7 +118,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg">
+            <div class="col-lg-4 mb-5 d-flex justify-content-center">
               <!-- Second card for King Room -->
               <div class="card h-100" style="width: 18rem;">
                 <img src="./hotelMarkupAssets/room2.jpg" class="card-img-top" alt="An image of a King size bedroom.">
@@ -142,9 +135,9 @@
               </div>
             </div>
 
-            <div class="col-lg h-100">
+            <div class="col-lg-4 mb-5 d-flex justify-content-center">
               <!-- Third card for a Beach side suite! -->
-              <div class="card" style="width: 18rem;">
+              <div class="card h-100" style="width: 18rem;">
                 <img src="./hotelMarkupAssets/room3.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Beach Side Suite</h5>
@@ -170,7 +163,7 @@
     <h1 class="mt-5 text-center">Packages</h1>
     <div class="container mt-5 mb-5">
       <div class="row">
-        <div class="col d-none d-md-block">
+        <div class="col d-none d-lg-block">
           <!-- insert image first wedding -->
           <img  src="./hotelMarkupAssets/hamsterwedding.jpg" class="img-fluid img-fit"
             alt="Image of hamster sniffing string with a string made heart.">
@@ -187,19 +180,19 @@
         <div class="col">
           <!-- insert text content first -->
           <h1>Full Bloom Packages</h1>
-          <p class="priceColor pt-5 pb-5">Starting US $1,000.00</p>
-          <p>Enjoy the shade of our cherry trees as you join us during our spring time celebration. We invite you to our
+          <p class="priceColor pt-5">Starting US $1,000.00</p>
+          <p class="pb-5">Enjoy the shade of our cherry trees as you join us during our spring time celebration. We invite you to our
             orchards for cherry, strawberry, and apple picking that is open all day. We end each evening with fresh,
             vegetable centric dinners along with a live show from local musicians.</p>
         </div>
-        <div class="col d-none d-md-block">
+        <div class="col d-none d-lg-block">
           <!-- insert image for full bloom package -->
           <img class="img-fluid img-fit" src="./hotelMarkupAssets/hamsterspring.jpg"
             alt="Image of hamster in the spring!">
         </div>
       </div>
       <div class="row">
-        <div class="col d-none d-md-block">
+        <div class="col d-none d-lg-block">
           <!-- insert image -->
           <img class="img-fluid img-fit" src="./hotelMarkupAssets/hamstercheese.jpg"
             alt="Hamster enjoying a dialectical nuts and cheese">
@@ -219,23 +212,27 @@
   <!-- This article will have hotel amenities -->
   <article>
     <div class="card text-bg-dark">
-      <img src="./hotelMarkupAssets/bg.jpg" class="card-img" alt="A background image of our resort.">
+      <img src="./hotelMarkupAssets/bg.jpg" class="card-img custom-image-height" alt="A background image of our resort." >
       <div class="card-img-overlay">
-        <h1 class="text-center m-5">Amenities</h1>
-        <p class="card-text text-center mb-5 pb-5">Here at La Petite Maison, we invite you to enjoy our services in
-          hopes that you have the most relaxing stay we can provide.</p>
+        <div class="row">
+          <h1 class="text-center p-2">Amenities</h1>
+        </div>
+        <div class="row">
+          <p class="card-text text-center pb-4">Here at La Petite Maison, we invite you to enjoy our services in hopes that you have the most relaxing stay we can provide.</p>
+          
+        </div>
         <div class="container d-none d-md-block">
-          <div class="row d-flex justify-content-center">
-            <div class="col-3">
+          <div class="row">
+            <div class="col-3 d-flex justify-content-center">
               <img class="amenities-img-size" src="./hotelMarkupAssets/24hour.png" alt="24 hour room service.">
             </div>
-            <div class="col-3">
+            <div class="col-3 d-flex justify-content-center">
               <img class="amenities-img-size" src="./hotelMarkupAssets/breakfast.png" alt="Complimentary Breakfast!">
             </div>
-            <div class="col-3">
+            <div class="col-3 d-flex justify-content-center">
               <img class="amenities-img-size" src="./hotelMarkupAssets/valet.png" alt="Valet Parking!">
             </div>
-            <div class="col-3">
+            <div class="col-3 d-flex justify-content-center">
               <img class="amenities-img-size" src="./hotelMarkupAssets/pool.png" alt="Beachside Pool!">
             </div>
           </div>
@@ -248,7 +245,7 @@
     <div class="m-5  footerColor">
       <h1 class="text-center pt-5"><span>Reserve a Room</span></h1>
 
-      <div class="row g-2 p-5 d-flex align-items-center">
+      <div class="row g-2 p-2 d-flex align-items-center">
         <div class="col-md">
           <div class="form-floating">
             <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com">
@@ -278,7 +275,7 @@
         </div>
       </div>
       <div class="row d-none d-md-block">
-        <img class="img-fluid" style="height: 350px;" src="./hotelMarkupAssets/hamsterreserve.jpg" alt="">
+        <img class="img-fluid" style="height: 400px;" src="./hotelMarkupAssets/hamsterreserve.jpg" alt="">
 
       </div>
     </div>

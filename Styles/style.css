@@ -12,6 +12,7 @@
     max-height: min-content;
     width: 800px;
     text-align: center;
+    opacity: 70%;
  }
  .text-center
  {
@@ -35,5 +36,19 @@
 }
 .amenities-img-size{
    width: 100px;
-   height: 120px;
+   height: 100px;
 }
+.image-background{
+   background-image:url(../hotelMarkupAssets/bg2.jpg);
+}
+@media screen and (max-width: 767px){
+   .custom-image-height{
+      height: 50vh;
+   }
+}
+@media screen and (min-width: 768px) {
+   .custom-image-height{
+      height: 80vh;
+   }
+}
+
