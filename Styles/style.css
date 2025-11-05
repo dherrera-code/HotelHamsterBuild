@@ -53,4 +53,8 @@ font-family: sans-serif;
       height: 70vh;
    }
 }
-
+@media screen and (min-width:991px){
+   .hide-image{
+      display: none;
+   }
+}
