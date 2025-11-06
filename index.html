@@ -11,6 +11,9 @@
   <style>
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
 </style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -53,12 +56,12 @@
     </nav>
 
     <div class="card text-bg-dark">
-      <img src="./hotelMarkupAssets/header.jpg" class="card-img" style="height:80vh;"
+      <img src="./hotelMarkupAssets/header.jpg" class="card-img object-fit-cover" style="height:500px;"
         alt="An image of a luxurious resort of the hamster hotel with a swimming area for the hamsters surrounded by palm trees and sun loungers with umbrellas to cover the sunlight.">
       <div class="card-img-overlay d-flex justify-content-center align-items-center">
-        <div class="text-background">
+        <div class="text-background d-flex justify-content-center align-items-center flex-column">
 
-          <h1 class="card-title pb-2">Run on the wheel of luxury</h5>
+          <h1 class="card-title pb-2 font-size-increase">Run on the wheel of luxury</h5>
             <p class="card-text"><span>Explore everything the beach has to offer in our relaxing resort.</span></p>
         </div>
       </div>
@@ -69,11 +72,11 @@
     <div class="container mt-5 mb-5">
       <div class="row">
 
-        <div class="col-lg-5 d-flex justify-content-center d-none d-lg-block ">
-          <img style="width: 350px;" src="./hotelMarkupAssets/hamsterhomejpg.jpg" alt="">
+        <div class="col-lg-4 d-none d-lg-block ">
+          <img class="float-end" style="height:500px" src="./hotelMarkupAssets/hamsterhomejpg.jpg" alt="">
         </div>
         <div class="col-lg-7">
-          <h1 class="pb-5">Welcome to a hamster's paradise</h1>
+          <h1 class="pb-2">Welcome to a hamster's paradise</h1>
           <p>Nestled in the heart of Cavia California, La Petite Maison is a luxury hotel designed for the small mammal
             with extravagance in mind. Escape to the warm comforts of stunning rooms, a relaxing spa, and a pool with a
             beach side view. </p>
@@ -104,7 +107,7 @@
       <h1 class="text-center p-5"><span>Our Rooms</span></h1> 
         <!-- Insert three cols with cards inside with reserve link button  -->
         <div class="container">
-          <div class="row">
+          <div class="row d-flex justify-content-center">
             <div class="col-lg-4 mb-5 d-flex justify-content-center">
               <!-- First Card! Queen Bed room-->
               <div class="card rounded-0" style="width: 18rem;">
@@ -143,7 +146,6 @@
                 </div>
               </div>
             </div>
-
             <div class="col-lg-4 mb-5 d-flex justify-content-center">
               <!-- Third card for a Beach side suite! -->
               <div class="card h-100 rounded-0" style="width: 18rem;">
@@ -221,7 +223,7 @@
   <!-- This article will have hotel amenities -->
   <article>
     <div class="card text-bg-dark">
-      <img src="./hotelMarkupAssets/bg.jpg" class="card-img custom-image-height" alt="A background image of our resort." >
+      <img src="./hotelMarkupAssets/bg.jpg" class="card-img custom-image-height object-fit-cover" alt="A background image of our resort." >
       <div class="card-img-overlay">
         <div class="row">
           <h1 class="text-center p-2">Amenities</h1>
@@ -251,8 +253,8 @@
   </article>
   <!-- Article with an input field to reserve a room with check in, check out, number of guest and room type! with a check availability button -->
   <article>
-    <div class="m-5 footerColor">
-      <h1 class="text-center pt-5"><span>Reserve a Room</span></h1>
+    <div class="footerColor reserve-spacing">
+      <h1 class="text-center pt-5 text-white">Reserve a Room</h1>
 
       <div class="row g-2 p-2 d-flex align-items-center">
         <div class="col-md-3 col-lg" >
@@ -284,7 +286,7 @@
         </div>
       </div>
       <div class="row d-none d-md-block">
-        <img class="img-fluid" style="height: 400px;" src="./hotelMarkupAssets/hamsterreserve.jpg" alt="">
+        <img class="img-fluid object-fit-cover" style="height: 400px;" src="./hotelMarkupAssets/hamsterreserve.jpg" alt="">
 
       </div>
     </div>
