@@ -53,19 +53,13 @@ li{
    max-height: 210px;
    max-width: auto;
 }
- .reserve-spacing{
-   margin-top: 5rem;
-   margin-bottom: 5rem;
-   margin-left: 15rem;
-   margin-right: 15rem;
- }
 .footerColor{
-    background-color: #000324;
+   background-color: #000324;
 }
 .img-center /*used to center logo in the footer */
 {
-    display: block;
-    margin: auto;
+   display: block;
+   margin: auto;
 }
 .amenities-img-size{
    width: 120px;
@@ -74,13 +68,16 @@ li{
 .image-background{
    background-image:url(../hotelMarkupAssets/bg2.jpg);
 }
+.reserve-spacing{
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  margin-left: 15rem;
+  margin-right: 15rem;
+}
 @media(max-width: 800px)
 {
    .custom-image-height{
       height: 75vh;
-   }
-   .reserve-spacing{
-      margin: 2rem;
    }
    .text-background
    {
@@ -92,7 +89,7 @@ li{
 {
    .reserve-spacing
    {
-      margin: 5rem;
+      margin: 3rem;
    }
 }
 @media(min-width: 799px) {
@@ -100,7 +97,7 @@ li{
       height: 65vh;
    }
 }
-@media screen and (min-width:991px){
+@media(min-width:991px){
    .hide-image{
       display: none;
    }
