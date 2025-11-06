@@ -50,11 +50,7 @@ li{
  .priceColor{
     color: #1F51A8;
  }
- .img-fit{
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
- }
+
  .reserve-spacing{
    margin-top: 5rem;
    margin-bottom: 5rem;
@@ -64,7 +60,7 @@ li{
 .footerColor{
     background-color: #000324;
 }
-.img-center
+.img-center /*used to center logo in the footer */
 {
     display: block;
     margin: auto;
