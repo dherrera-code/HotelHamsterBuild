@@ -1,21 +1,24 @@
-body{
-font-family: sans-serif;
-}
 
 h1 {
   font-family: "Dosis", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
+h5{
+   font-family: "Dosis", sans-serif;
+   font-optical-sizing: auto;
+   font-style: normal;
+}
 .font-size-increase{
    font-size: 45px;
 }
-h5{
-font-family: "Dosis", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+.Dosis-font
+{
+   font-family: "Dosis", sans-serif;
+   font-optical-sizing: auto;
+   font-style: normal;
 }
-p {
+p{
   font-family: "Source Sans 3", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -25,20 +28,16 @@ li{
   font-optical-sizing: auto;
   font-style: normal;
 }
-
+span{
+   color: #FFFFFF;
+}
  header{
     background-color: #000324;
- }
- span{
-   color: #FFFFFF;
-   font-family: "Source Sans 3", sans-serif;
-   font-optical-sizing: auto;
-   font-style: normal;
  }
  .text-background{
     background-color: #000324;
     padding: 25px;
-    height: 20vh;
+    height: 25vh;
     width: 55vw;
     opacity: 70%;
  }
