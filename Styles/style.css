@@ -68,6 +68,9 @@ span{
 .image-background{
    background-image:url(../hotelMarkupAssets/bg2.jpg);
 }
+.form-control{
+   border-radius: 0px !important;
+}
 .reserve-spacing{
   margin-top: 5rem;
   margin-bottom: 5rem;
@@ -94,7 +97,7 @@ span{
 }
 @media(min-width: 799px) {
    .custom-image-height{
-      height: 65vh;
+      height:450px;
    }
 }
 @media(min-width:991px){
